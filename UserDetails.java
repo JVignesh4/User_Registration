@@ -5,6 +5,16 @@ public class UserDetails {
     private String lastName;
     private String email;
 
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    private String phoneNumber;
+
     public String getFirstName() {
         return firstName;
     }
@@ -29,4 +39,5 @@ public class UserDetails {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }
