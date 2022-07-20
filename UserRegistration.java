@@ -8,9 +8,9 @@ public class UserRegistration {
     UserDetails userDetails = new UserDetails();
 
     public void addUser() {
-        int choice = 0;
+        int choice;
         do {
-            System.out.println("1. First Name\n2. Last Name\n3. Email\n4. Phone Number\n5. Password\n0. Exit");
+            System.out.println("1. First Name\n2. Last Name\n3. Email\n4. Phone Number\n5. Password\n6. Exit");
             System.out.println("Enter choice");
             choice = scanner.nextInt();
             switch (choice) {
@@ -34,6 +34,9 @@ public class UserRegistration {
                     String password = stringInput("Enter Password");
                     addPassword(password);
                     break;
+                case 6:
+                    System.out.println("Thanks For Using!");
+                    System.exit(6);
             }
         } while (choice != 0);
     }
