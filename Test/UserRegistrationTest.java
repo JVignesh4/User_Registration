@@ -1,4 +1,5 @@
-package com.blz.UserRegistrationException;
+package com.blz.UserRegistrationException.Test;
+import com.blz.UserRegistrationException.UserRegistration;
 import org.junit.jupiter.api.Assertions;
 import org.testng.annotations.Test;
 
